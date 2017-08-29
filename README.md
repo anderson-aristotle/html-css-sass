@@ -4,8 +4,8 @@
 
 ## Prerequisites
 
--   [ga-wdi-boston/html-css](https://github.com/ga-wdi-boston/html-css)
--   [ga-wdi-boston/html-css-layout](https://github.com/ga-wdi-boston/html-css-layout)
+-   [ga-wdi-boston/html-css](https://git.generalassemb.ly/ga-wdi-boston/html-css)
+-   [ga-wdi-boston/html-css-layout](https://git.generalassemb.ly/ga-wdi-boston/html-css-layout)
 
 ## Objectives
 
@@ -17,7 +17,7 @@
 ## Preparation
 
 1.  Fork and clone this repository.
- [FAQ](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
+ [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
 1.  Create a new branch, `training`, for your work.
 1.  Checkout to the `training` branch.
 1.  Install dependencies with `npm install`.
