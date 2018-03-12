@@ -93,11 +93,12 @@ section.intro {
 
 ## Demo: Save Colors as Variables
 
-Let's start by defining a theme for an example application.
+Let's start by demonstrating how variables are defined in an example application.
 Have a look at the current styles in
 [`assets/styles/index.scss`](assets/styles/index.scss). You'll see that we're
-already making use of a great feature of Sass: variables. You should save
-important bits of style, especially colors, with a descriptive, useful name.
+already making use of a great feature of Sass: variables.
+
+`Good Practices: You should save important bits of style, especially colors, with a descriptive, useful name.`
 
 ## Code Along: Semantic Color Names and Theming
 
