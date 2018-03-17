@@ -142,7 +142,7 @@ Challenge your self and try to incorporate variables in your code :information_d
 
 ## Lab: Use Sass Functions
 
-Make use of existing color definitions and the Sass [`darken` function](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
+Now, make use of existing color definitions and the Sass [`darken` function](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
  to darken the `$background-color` for your quote by 10% instead of writing a
  color literal.
 
@@ -162,7 +162,9 @@ Where should we place these functions?
 
 Use your custom `shade` function instead of the `darken` function.
 
-## Demo: Sass Mixins
+## Lab: Sass Mixins
+
+Mixins are one of the most used features from the whole Sass language. They are the key to reusability and DRY (“don’t repeat yourself”) components. And for good reason: mixins allow authors to define styles that can be reused throughout the stylesheet without needing to resort to non-semantic classes such as `float-left`.
 
 [Sass Mixins](http://sass-lang.com/guide#mixins) are a great way to reduce code
 duplication. Mixins can be included in rule declarations to import common rules
