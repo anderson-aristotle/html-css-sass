@@ -131,15 +131,14 @@ rules include, but are not limited to:
 -   `font-size`
 -   `padding`
 
-The text on our page isn't that readable. Have a look at [Better M@%4^ f$*%
+Have a look at [Better M@%4^ f$*%
 Website](http://bettermotherfuckingwebsite.com/). Use your hacker skills to
 figure out the CSS rules the site uses to make content more readable.
 
-Let's target `body` and `h`eader-wide adjustments we can make to our page.
-
 Save _**only** the rules that deal with typography_ in
 [`assets/styles/typography.scss`](assets/styles/typography.scss) and be sure to
-include it inside your manifest.
+include it inside your manifest!
+Challenge your self and try to incorporate variables in your code :information_desk_person:
 
 ## Demo: Styling a Quote
 
