@@ -140,27 +140,6 @@ Save _**only** the rules that deal with typography_ in
 include it inside your manifest!
 Challenge your self and try to incorporate variables in your code :information_desk_person:
 
-## Demo: Styling a Quote
-
-In publishing, it is often desirable to pick essential quotes in content and
-re-print them using special styling that draws attention to the importance of
-that specific content. These are sometimes called "block quotes" or "callouts".
-
-We have an example of such a quote in [`index.html`](index.html). Here's
-what Mozilla considers the semantics of paragraph elements:
-
-> Paragraphs are usually represented in visual media as blocks of text that are
-> separated from adjacent blocks by vertical blank space and/or first-line
-> indentation. Paragraphs are block-level elements.
->
-> [<p> - HTML (HyperText Markup Language) &#124; MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
-
-We already have a style that draws attention to the quote in our manifest. Let's
-clean that up by extracting that rule into a module.
-
-Move the quote style declarations into the theme. Why would we want to keep
-these styles in the theme module?
-
 ## Lab: Use Sass Functions
 
 Make use of existing color definitions and the Sass [`darken` function](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
