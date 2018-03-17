@@ -95,22 +95,21 @@ section.intro {
 
 Let's start by demonstrating how variables are defined in an example application.
 Have a look at the current styles in
-[`assets/styles/index.scss`](assets/styles/index.scss). You'll see that we're
-already making use of a great feature of Sass: variables.
+[`assets/styles/index.scss`](assets/styles/index.scss).
 
-`Good Practices: You should save important bits of style, especially colors, with a descriptive, useful name.`
+`Best Practices: You should save important bits of style, especially colors, with a descriptive, useful name.`
 
 ## Code Along: Semantic Color Names and Theming
 
 1. Create two files in `assets/styles/` called `theme.scss` and `colors.scss`.
 2. Copy and paste all of the code from `index.scss` to `theme.scss`.
 
-These variables' names aren't that great. First, I'll create a colors module
+These variables' names aren't that great. First, let's create a colors module
 that defines semantic names for the inscrutable hexadecimal color literals we're
-using. Then, I'll create a theme module that gives us a better idea of how these
+using. Then, let's create a theme module that gives us a better idea of how these
 colors map to styles on our page.
 
-Finally, I include the theme in
+Finally, let's include the theme in
 [`assets/styles/index.scss`](assets/styles/index.scss), which serves as our
 style "manifest". Webpack will look for styles here and then let Sass follow
 import statements to find all the files it needs. If we leave a module out of
@@ -122,10 +121,6 @@ a good place for that.
 
 ## Lab: Typography
 
-The text on our page isn't that readable. Have a look at [Better Motherfucking
-Website](http://bettermotherfuckingwebsite.com/). Use your hacker skills to
-figure out the CSS rules the site uses to make content more readable.
-
 Typography is a complex subject, but for now, when we talk about typography,
 we mean CSS rules aimed at improving the readability of your website. Such
 rules include, but are not limited to:
@@ -135,6 +130,10 @@ rules include, but are not limited to:
 -   `line-height`
 -   `font-size`
 -   `padding`
+
+The text on our page isn't that readable. Have a look at [Better M@%4^ f$*%
+Website](http://bettermotherfuckingwebsite.com/). Use your hacker skills to
+figure out the CSS rules the site uses to make content more readable.
 
 Let's target `body` and `h`eader-wide adjustments we can make to our page.
 
