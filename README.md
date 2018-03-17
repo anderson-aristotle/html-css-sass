@@ -224,6 +224,7 @@ community-maintained list of best practices and explanations.
 
 ## Additional Resources
 
+-   [Additional resource on organizing SASS files and folders](https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization)
 -   [Color-Hex - Explore Colors and Color Palattes](http://www.color-hex.com)
 -   [Color Picker - Explore Colors for HTML and CSS](http://www.hexcolortool.com)
 -   [Controlling color with Sass color functions](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
