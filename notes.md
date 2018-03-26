@@ -1,5 +1,7 @@
 ## Nested Slectors
 
+![alt text](public/manifest.jpeg)
+
 ```scss
 section.intro
 ```
