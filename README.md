@@ -93,23 +93,23 @@ section.intro {
 
 ## Demo: Save Colors as Variables
 
-Let's start by defining a theme for an example application.
+Let's start by demonstrating how variables are defined in an example application.
 Have a look at the current styles in
-[`assets/styles/index.scss`](assets/styles/index.scss). You'll see that we're
-already making use of a great feature of Sass: variables. You should save
-important bits of style, especially colors, with a descriptive, useful name.
+[`assets/styles/index.scss`](assets/styles/index.scss).
+
+`Best Practices: You should save important bits of style, especially colors, with a descriptive, useful name.`
 
 ## Code Along: Semantic Color Names and Theming
 
 1. Create two files in `assets/styles/` called `theme.scss` and `colors.scss`.
 2. Copy and paste all of the code from `index.scss` to `theme.scss`.
 
-These variables' names aren't that great. First, I'll create a colors module
+These variables' names aren't that great. First, let's create a colors module
 that defines semantic names for the inscrutable hexadecimal color literals we're
-using. Then, I'll create a theme module that gives us a better idea of how these
+using. Then, let's create a theme module that gives us a better idea of how these
 colors map to styles on our page.
 
-Finally, I include the theme in
+Finally, let's include the theme in
 [`assets/styles/index.scss`](assets/styles/index.scss), which serves as our
 style "manifest". Webpack will look for styles here and then let Sass follow
 import statements to find all the files it needs. If we leave a module out of
@@ -121,10 +121,6 @@ a good place for that.
 
 ## Lab: Typography
 
-The text on our page isn't that readable. Have a look at [Better Motherfucking
-Website](http://bettermotherfuckingwebsite.com/). Use your hacker skills to
-figure out the CSS rules the site uses to make content more readable.
-
 Typography is a complex subject, but for now, when we talk about typography,
 we mean CSS rules aimed at improving the readability of your website. Such
 rules include, but are not limited to:
@@ -135,36 +131,18 @@ rules include, but are not limited to:
 -   `font-size`
 -   `padding`
 
-Let's target `body` and `h`eader-wide adjustments we can make to our page.
+Have a look at [Better M@%4^ f$*%
+Website](http://bettermotherfuckingwebsite.com/). Use your hacker skills to
+figure out the CSS rules the site uses to make content more readable.
 
 Save _**only** the rules that deal with typography_ in
 [`assets/styles/typography.scss`](assets/styles/typography.scss) and be sure to
-include it inside your manifest.
-
-## Demo: Styling a Quote
-
-In publishing, it is often desirable to pick essential quotes in content and
-re-print them using special styling that draws attention to the importance of
-that specific content. These are sometimes called "block quotes" or "callouts".
-
-We have an example of such a quote in [`index.html`](index.html). Here's
-what Mozilla considers the semantics of paragraph elements:
-
-> Paragraphs are usually represented in visual media as blocks of text that are
-> separated from adjacent blocks by vertical blank space and/or first-line
-> indentation. Paragraphs are block-level elements.
->
-> [<p> - HTML (HyperText Markup Language) &#124; MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
-
-We already have a style that draws attention to the quote in our manifest. Let's
-clean that up by extracting that rule into a module.
-
-Move the quote style declarations into the theme. Why would we want to keep
-these styles in the theme module?
+include it inside your manifest!
+Challenge your self and try to incorporate variables in your code :information_desk_person:
 
 ## Lab: Use Sass Functions
 
-Make use of existing color definitions and the Sass [`darken` function](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
+Now, make use of existing color definitions and the Sass [`darken` function](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
  to darken the `$background-color` for your quote by 10% instead of writing a
  color literal.
 
@@ -184,7 +162,9 @@ Where should we place these functions?
 
 Use your custom `shade` function instead of the `darken` function.
 
-## Demo: Sass Mixins
+## Lab: Sass Mixins
+
+Mixins are one of the most used features from the whole Sass language. They are the key to reusability and DRY (“don’t repeat yourself”) components. And for good reason: mixins allow authors to define styles that can be reused throughout the stylesheet without needing to resort to non-semantic classes such as `float-left`.
 
 [Sass Mixins](http://sass-lang.com/guide#mixins) are a great way to reduce code
 duplication. Mixins can be included in rule declarations to import common rules
@@ -244,6 +224,7 @@ community-maintained list of best practices and explanations.
 
 ## Additional Resources
 
+-   [Additional resource on organizing SASS files and folders](https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization)
 -   [Color-Hex - Explore Colors and Color Palattes](http://www.color-hex.com)
 -   [Color Picker - Explore Colors for HTML and CSS](http://www.hexcolortool.com)
 -   [Controlling color with Sass color functions](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
