@@ -229,6 +229,8 @@ community-maintained list of best practices and explanations.
 -   [Color Picker - Explore Colors for HTML and CSS](http://www.hexcolortool.com)
 -   [Controlling color with Sass color functions](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
 -   [PXtoEM.com: PX to EM conversion made simple.](http://pxtoem.com/)
+-   [Sassmeister](https://www.sassmeister.com/)
+-   [Sass cheatsheet](https://devhints.io/sass)
 
 ## [License](LICENSE)
 
