@@ -9,10 +9,10 @@
 
 ## Objectives
 
-- Explain nested CSS rules
-- Store style rules in variables
-- Calculate styles using variables and arithmetic operations
-- Make a custom mixin to DRY out CSS
+- Explain nested CSS rules.
+- Store style rules in variables.
+- Calculate styles using variables and arithmetic operations.
+- Make a custom mixin to DRY out CSS.
 
 ## Preparation
 
@@ -30,9 +30,9 @@ preprocessors use programming languages like Ruby, C, or JavaScript to add
 features to your stylesheets that are absent from native CSS.
 Some examples include:
 
-- variables,
-- calculations,
-- and extensions or mix-ins.
+- Variables
+- Calculations
+- Extensions or mix-ins
 
 Examples of how you can use a preprocessor like Sass:
 
