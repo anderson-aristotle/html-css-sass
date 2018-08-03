@@ -4,23 +4,23 @@
 
 ## Prerequisites
 
--   [ga-wdi-boston/html-css](https://git.generalassemb.ly/ga-wdi-boston/html-css)
--   [ga-wdi-boston/html-css-layout](https://git.generalassemb.ly/ga-wdi-boston/html-css-layout)
+- [ga-wdi-boston/html-css](https://git.generalassemb.ly/ga-wdi-boston/html-css)
+- [ga-wdi-boston/html-css-layout](https://git.generalassemb.ly/ga-wdi-boston/html-css-layout)
 
 ## Objectives
 
--   Explain nested CSS rules
--   Store style rules in variables
--   Calculate styles using variables and arithmetic operations
--   Make a custom mixin to DRY out CSS
+- Explain nested CSS rules
+- Store style rules in variables
+- Calculate styles using variables and arithmetic operations
+- Make a custom mixin to DRY out CSS
 
 ## Preparation
 
-1.  Fork and clone this repository.
+1. Fork and clone this repository.
  [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
-1.  Create a new branch, `training`, for your work.
-1.  Checkout to the `training` branch.
-1.  Install dependencies with `npm install`.
+1. Create a new branch, `training`, for your work.
+1. Checkout to the `training` branch.
+1. Install dependencies with `npm install`.
 
 ## Sass
 
@@ -30,16 +30,15 @@ preprocessors use programming languages like Ruby, C, or JavaScript to add
 features to your stylesheets that are absent from native CSS.
 Some examples include:
 
--   variables,
--   calculations,
--   and extensions or mix-ins.
+- variables,
+- calculations,
+- and extensions or mix-ins.
 
 Examples of how you can use a preprocessor like Sass:
 
--   [Build A Pleasing Color Scheme Programmatically](http://thesassway.com/advanced/how-to-programtically-go-from-one-color-to-another-in-sass)
--   [Build Your Own Custom Grid](http://webdesign.tutsplus.com/tutorials/a-simple-responsive-grid-made-even-better-with-sass--cms-21540)
--   [Make Your Application Themeable](http://webdesign.tutsplus.com/tutorials/how-to-use-sass-to-build-one-project-with-multiple-themes--cms-22104)
-
+- [Build A Pleasing Color Scheme Programmatically](http://thesassway.com/advanced/how-to-programtically-go-from-one-color-to-another-in-sass)
+- [Build Your Own Custom Grid](http://webdesign.tutsplus.com/tutorials/a-simple-responsive-grid-made-even-better-with-sass--cms-21540)
+- [Make Your Application Themeable](http://webdesign.tutsplus.com/tutorials/how-to-use-sass-to-build-one-project-with-multiple-themes--cms-22104)
 
 ## Nested Selectors
 
@@ -97,12 +96,13 @@ Let's start by demonstrating how variables are defined in an example application
 Have a look at the current styles in
 [`assets/styles/index.scss`](assets/styles/index.scss).
 
-`Best Practices: You should save important bits of style, especially colors, with a descriptive, useful name.`
+_Best Practices: You should save important bits of style, especially colors,
+with a descriptive, useful name._
 
 ## Code Along: Semantic Color Names and Theming
 
 1. Create two files in `assets/styles/` called `theme.scss` and `colors.scss`.
-2. Copy and paste all of the code from `index.scss` to `theme.scss`.
+1. Copy and paste all of the code from `index.scss` to `theme.scss`.
 
 These variables' names aren't that great. First, let's create a colors module
 that defines semantic names for the inscrutable hexadecimal color literals we're
@@ -125,11 +125,11 @@ Typography is a complex subject, but for now, when we talk about typography,
 we mean CSS rules aimed at improving the readability of your website. Such
 rules include, but are not limited to:
 
--   `margin`
--   `width` and friends (like `max-width`)
--   `line-height`
--   `font-size`
--   `padding`
+- `margin`
+- `width` and friends (like `max-width`)
+- `line-height`
+- `font-size`
+- `padding`
 
 Have a look at [Better M@%4^ f$*%
 Website](http://bettermotherfuckingwebsite.com/). Use your hacker skills to
@@ -146,7 +146,9 @@ Now, make use of existing color definitions and the Sass [`darken` function](htt
  to darken the `$background-color` for your quote by 10% instead of writing a
  color literal.
 
-Also, use a [calculation](http://sass-lang.com/guide) based on default `font-size` instead of using a literal `px` unit to make your quote's font size 50% larger.
+Also, use a [calculation](http://sass-lang.com/guide) based on default
+`font-size` instead of using a literal `px` unit to make your quote's font size
+50% larger.
 
 Use variables to store the results of calculations.
 
@@ -164,7 +166,11 @@ Use your custom `shade` function instead of the `darken` function.
 
 ## Lab: Sass Mixins
 
-Mixins are one of the most used features from the whole Sass language. They are the key to reusability and DRY (“don’t repeat yourself”) components. And for good reason: mixins allow authors to define styles that can be reused throughout the stylesheet without needing to resort to non-semantic classes such as `float-left`.
+Mixins are one of the most used features from the whole Sass language. They are
+the key to reusability and DRY (“don’t repeat yourself”) components. And for
+good reason: mixins allow authors to define styles that can be reused throughout
+the stylesheet without needing to resort to non-semantic classes such as
+`float-left`.
 
 [Sass Mixins](http://sass-lang.com/guide#mixins) are a great way to reduce code
 duplication. Mixins can be included in rule declarations to import common rules
@@ -173,7 +179,8 @@ that are task-focused.
 Our application has too much whitespace on a mobile device. Have a look at some
 [example mixins](http://www.sitepoint.com/sass-mixins-kickstart-project/).
  We're going to use the last one, the
- [breakpoint mixin](http://www.sitepoint.com/sass-mixins-kickstart-project/#breakpoint-handler), to reveal our intention to change styles on mobile devices.
+ [breakpoint mixin](http://www.sitepoint.com/sass-mixins-kickstart-project/#breakpoint-handler)
+ , to reveal our intention to change styles on mobile devices.
 
 ## Code Along: Create a Mixin
 
@@ -189,8 +196,9 @@ Now that we've defined the mixin, let's include it where appropriate. Where are
 our readability settings defined?
 
 The problem with including our breakpoints in our `typography` module is that we
-need to ensure the breakpoints are the last rules applied. For now, create a new file [`assets/styles/breakpoints.scss`](assets/styles/breakpoints.scss) and include
-it in the manifest.
+need to ensure the breakpoints are the last rules applied. For now, create a new
+file [`assets/styles/breakpoints.scss`](assets/styles/breakpoints.scss) and
+include it in the manifest.
 
 ## Lab: Use a Mixin
 
@@ -199,8 +207,8 @@ so that whitespace in that element is half of the default for devices smaller
 than `tiny`.
 
 1. Import your the Sass module that has your mixin.
-2. Choose the selector you want to apply the mixin to.
-3. Use `@include` to use your mixin.
+1. Choose the selector you want to apply the mixin to.
+1. Use `@include` to use your mixin.
 
 ## Best Practices
 
@@ -211,29 +219,29 @@ when developing your own custom CSS.
 
 Best practice include, but are not limited to:
 
--   Do not use HTML `id` attributes to select elements for styling.
--   Always save color literals in meaningful variable names, defined as
+- Do not use HTML `id` attributes to select elements for styling.
+- Always save color literals in meaningful variable names, defined as
     hexadecimal values.
--   Instead of hard-coding size units, give them a good name and use arithmetic
+- Instead of hard-coding size units, give them a good name and use arithmetic
     to adjust as necessary.
--   Re-used calculations should be stored in a variable.
--   Sort rule declarations by property name in alphabetical order.
+- Re-used calculations should be stored in a variable.
+- Sort rule declarations by property name in alphabetical order.
 
 For more best practices, see [Sass Guidelines](http://sass-guidelin.es/), a
 community-maintained list of best practices and explanations.
 
 ## Additional Resources
 
--   [Additional resource on organizing SASS files and folders](https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization)
--   [Color-Hex - Explore Colors and Color Palattes](http://www.color-hex.com)
--   [Color Picker - Explore Colors for HTML and CSS](http://www.hexcolortool.com)
--   [Controlling color with Sass color functions](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
--   [PXtoEM.com: PX to EM conversion made simple.](http://pxtoem.com/)
--   [Sassmeister](https://www.sassmeister.com/)
--   [Sass cheatsheet](https://devhints.io/sass)
+- [Additional resource on organizing SASS files and folders](https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization)
+- [Color-Hex - Explore Colors and Color Palattes](http://www.color-hex.com)
+- [Color Picker - Explore Colors for HTML and CSS](http://www.hexcolortool.com)
+- [Controlling color with Sass color functions](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
+- [PXtoEM.com: PX to EM conversion made simple.](http://pxtoem.com/)
+- [Sassmeister](https://www.sassmeister.com/)
+- [Sass cheatsheet](https://devhints.io/sass)
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
