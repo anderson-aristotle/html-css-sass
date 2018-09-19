@@ -108,7 +108,7 @@ that defines semantic names for the inscrutable hexadecimal color literals we're
 using. Then, let's create a theme module that gives us a better idea of how these
 colors map to styles on our page.
 
-Finally, let's include the theme in
+Finally, let's include the colors and theme modules in
 [`assets/styles/index.scss`](assets/styles/index.scss), which serves as our
 style "manifest". Webpack will look for styles here and then let Sass follow
 import statements to find all the files it needs. If we leave a module out of
