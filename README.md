@@ -69,7 +69,7 @@ section.intro > ul li {
 
 To:
 
-```CSS
+```SCSS
 section.intro {
   max-width: 1200px;
   text-align: center;
