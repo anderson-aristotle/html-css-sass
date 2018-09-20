@@ -50,8 +50,8 @@ section.intro {
 }
 
 section.intro > h1 {
-  font-size: 32px;
   color: #000;
+  font-size: 32px;
 }
 
 section.intro > h1:hover {
@@ -73,16 +73,20 @@ To:
 section.intro {
   max-width: 1200px;
   text-align: center;
+
   & > h1 {
-    font-size: 32px;
     color: #000;
-    &:hover{
+    font-size: 32px;
+
+    &:hover {
       opacity: .5;
     }
   }
+
   & > ul {
     list-style-type: none;
-    li{
+
+    li {
       padding: 10px auto;
     }
   }
