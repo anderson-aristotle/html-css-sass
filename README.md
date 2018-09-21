@@ -50,7 +50,7 @@ section.intro {
 }
 
 section.intro > h1 {
-  color: #000;
+  color: #00F;
   font-size: 32px;
 }
 
@@ -74,8 +74,8 @@ section.intro {
   max-width: 1200px;
   text-align: center;
 
-  & > h1 {
-    color: #000;
+  > h1 {
+    color: #00F;
     font-size: 32px;
 
     &:hover {
@@ -83,7 +83,7 @@ section.intro {
     }
   }
 
-  & > ul {
+  > ul {
     list-style-type: none;
 
     li {
@@ -174,15 +174,10 @@ community-maintained list of best practices and explanations.
 
 - [Organizing Sass files and folders](https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization)
 - [Color-Hex - Explore Colors and Color Palattes](http://www.color-hex.com)
-- [Color Picker - Explore Colors for HTML and CSS](http://www.hexcolortool.com)
 - [Controlling color with Sass color functions](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
-- [PXtoEM.com: PX to EM conversion made simple.](http://pxtoem.com/)
 - [Sassmeister](https://www.sassmeister.com/)
 - [Sass cheatsheet](https://devhints.io/sass)
-- [Sass Color Functions](https://robots.thoughtbot.com/controlling-color-with-sass-color-functions)
 - [Sass Mixins & Operators](http://sass-lang.com/guide)
-- [Sass Example Mixins](http://www.sitepoint.com/sass-mixins-kickstart-project/)
-- [Sass Guidelines](http://sass-guidelin.es/#lightening-and-darkening-colors)
 
 ## [License](LICENSE)
 
