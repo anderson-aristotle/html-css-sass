@@ -24,7 +24,7 @@
 ## Sass
 
 [Sass](http://sass-lang.com) (Syntactically Awesome Style Sheets) is a powerful
-[CSS preprocessor](https://github.com/showcases/css-preprocessors). CSS
+[CSS preprocessor](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor). CSS
 preprocessors use programming languages like Ruby, C, or JavaScript to add
 features to your stylesheets that are absent from native CSS.
 Some examples include:
@@ -146,8 +146,7 @@ Challenge your self and try to incorporate variables in your code :information_d
 ## Lab: Use Sass Operators for Calculations
 
 Now, use a [calculation](https://sass-lang.com/guide#topic-8) based on default
-`font-size` instead of using a literal `px` unit to make your quote's font size
-50% larger.
+`font-size` instead of using a literal `px` unit to make your quote's font size 50% larger.
 
 Use variables to store the results of calculations.
 
