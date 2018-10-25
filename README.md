@@ -146,7 +146,8 @@ Challenge your self and try to incorporate variables in your code :information_d
 ## Lab: Use Sass Operators for Calculations
 
 Now, use a [calculation](https://sass-lang.com/guide#topic-8) based on default
-`font-size` instead of using a literal `px` unit to make your quote's font size 50% larger.
+`font-size` instead of using a literal `px` unit to make your quote's font size
+50% larger.
 
 Use variables to store the results of calculations.
 
