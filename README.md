@@ -24,7 +24,7 @@
 ## Sass
 
 [Sass](http://sass-lang.com) (Syntactically Awesome Style Sheets) is a powerful
-[CSS preprocessor](https://github.com/showcases/css-preprocessors). CSS
+[CSS preprocessor](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor). CSS
 preprocessors use programming languages like Ruby, C, or JavaScript to add
 features to your stylesheets that are absent from native CSS.
 Some examples include:
