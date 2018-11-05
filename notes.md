@@ -1,6 +1,7 @@
 ## Nested Slectors
 
-![alt text](public/manifest.jpeg)
+### File Links Diagram
+![diagram](https://media.git.generalassemb.ly/user/16320/files/fad93680-ddf7-11e8-9563-7174eeb9be49)
 
 ```scss
 section.intro

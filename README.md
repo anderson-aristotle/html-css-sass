@@ -24,8 +24,8 @@
 ## Sass
 
 [Sass](http://sass-lang.com) (Syntactically Awesome Style Sheets) is a powerful
-[CSS preprocessor](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor). CSS
-preprocessors use programming languages like Ruby, C, or JavaScript to add
+[CSS preprocessor](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor)
+. CSS preprocessors use programming languages like Ruby, C, or JavaScript to add
 features to your stylesheets that are absent from native CSS.
 Some examples include:
 
@@ -39,9 +39,10 @@ Examples of how you can use a preprocessor like Sass:
 - [Build Your Own Custom Grid](http://webdesign.tutsplus.com/tutorials/a-simple-responsive-grid-made-even-better-with-sass--cms-21540)
 - [Make Your Application Themeable](http://webdesign.tutsplus.com/tutorials/how-to-use-sass-to-build-one-project-with-multiple-themes--cms-22104)
 
-## Nested Selectors
+## Code Along: Nested Selectors
 
-This should feel natural. Let's go from:
+This should feel natural. Using [Sassmeister](https://www.sassmeister.com/),
+a tool that converts our Sass styles into CSS styles, let's go from:
 
 ```CSS
 section.intro {
@@ -138,15 +139,16 @@ Have a look at [Better M@%4^ f$*%
 Website](http://bettermotherfuckingwebsite.com/). Use your hacker skills to
 figure out the CSS rules the site uses to make content more readable.
 
-Save _**only** the rules that deal with typography_ in
-[`assets/styles/typography.scss`](assets/styles/typography.scss) and be sure to
-include it inside your manifest!
+Create a new file called `assets/styles/typography.scss`. Save _**only** the
+rules that deal with typography_ in `assets/styles/typography.scss` and be sure
+to include it inside your manifest!
 Challenge your self and try to incorporate variables in your code :information_desk_person:
 
 ## Lab: Use Sass Operators for Calculations
 
 Now, use a [calculation](https://sass-lang.com/guide#topic-8) based on default
-`font-size` instead of using a literal `px` unit to make your quote's font size 50% larger.
+`font-size` instead of using a literal `px` unit to make your quote's font size
+50% larger.
 
 Use variables to store the results of calculations.
 
