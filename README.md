@@ -39,9 +39,10 @@ Examples of how you can use a preprocessor like Sass:
 - [Build Your Own Custom Grid](http://webdesign.tutsplus.com/tutorials/a-simple-responsive-grid-made-even-better-with-sass--cms-21540)
 - [Make Your Application Themeable](http://webdesign.tutsplus.com/tutorials/how-to-use-sass-to-build-one-project-with-multiple-themes--cms-22104)
 
-## Nested Selectors
+## Code Along: Nested Selectors
 
-This should feel natural. Let's go from:
+This should feel natural. Using [Sassmeister](https://www.sassmeister.com/),
+a tool that converts our Sass styles into CSS styles, let's go from:
 
 ```CSS
 section.intro {
