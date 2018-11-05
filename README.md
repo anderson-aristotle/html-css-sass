@@ -138,9 +138,9 @@ Have a look at [Better M@%4^ f$*%
 Website](http://bettermotherfuckingwebsite.com/). Use your hacker skills to
 figure out the CSS rules the site uses to make content more readable.
 
-Save _**only** the rules that deal with typography_ in
-[`assets/styles/typography.scss`](assets/styles/typography.scss) and be sure to
-include it inside your manifest!
+Create a new file called `assets/styles/typography.scss`. Save _**only** the
+rules that deal with typography_ in `assets/styles/typography.scss` and be sure
+to include it inside your manifest!
 Challenge your self and try to incorporate variables in your code :information_desk_person:
 
 ## Lab: Use Sass Operators for Calculations
