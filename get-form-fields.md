@@ -1,4 +1,4 @@
-### How to use `getFormFields`
+# How to use `getFormFields`
 
 To be able to send data to an API, we'll need a way to retrieve that data from
 forms in the DOM. It turns out that needing to grab some user
@@ -18,6 +18,7 @@ First, your `<input>`s will need to be wrapped in a `<form>`, like this:
   <button type="submit">Create Book</button>
 </form>
 ```
+
 Then, in your Javascript, you'd do something like this:
 
 ```js
